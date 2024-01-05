@@ -1,0 +1,100 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom,rgba(91,176,255,1), white);
+}
+.corps-principal {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(237, 240, 243);
+    padding: 5%;
+    padding-bottom: 75px;
+    margin : 50px;
+    font-size: large;
+    text-align: center;
+    border-radius: 80px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+}
+.valider {
+    background-color: rgba(91,176,255,1);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    border: 0px solid black;
+    width: 514px;
+    height: 132px;  
+}
+.btnChoix {
+    background-color: rgba(112,112,112,1);
+    border-radius: 100px;
+    border: 0px solid rgba(112,112,112,1);
+    height: 100px;
+    width: 100px;
+}
+.btnChoix.selected {
+    background-color: rgba(255,229,0,1);
+    border-color: rgba(255,229,0,1);
+}
+
+
+/* Placement boutons pour la page relier */
+.grillePlacement {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    text-align: center;
+}
+.grille.btn {
+    text-align: center;
+}
+.grille.colonne1 {
+    grid-column: 1;
+}
+.grille.colonne2 {
+    grid-column: 2;
+}
+.grille.colonne3 {
+    grid-column: 3;
+}
+.grille.colonne4 {
+    grid-column: 4;
+}
+.grille.colonne2-4 {
+    grid-column: 2/4;
+}
+.grille.ligne1 {
+    grid-row: 1;
+}
+.grille.ligne2 {
+    grid-row: 2;
+}
+.grille.ligne3 {
+    grid-row: 3;
+}
+.grille.ligne4 {
+    grid-row: 4;
+}
+.grille.ligne5 {
+    grid-row: 5;
+}
+.grille.ligne6 {
+    grid-row: 6;
+}
+.grille.ligne7 {
+    grid-row: 7;
+}
+.reponse {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
